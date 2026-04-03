@@ -31,7 +31,7 @@ def create_app():
     """
     Create and configure the Flask application.
     This is a factory function so we can create multiple
-    app instances for testing if needed..
+    app instances for testing if needed.
     """
     app = Flask(__name__)
 
