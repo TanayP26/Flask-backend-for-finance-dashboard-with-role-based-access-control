@@ -24,10 +24,7 @@ from database import init_db
 from utils.errors import APIError
 
 # import blueprints
-from routes.auth_routes import auth_bp
-from routes.user_routes import user_bp
-from routes.record_routes import record_bp
-from routes.dashboard_routes import dashboard_bp
+from routes import auth_bp, user_bp, record_bp, dashboard_bp
 
 
 def create_app():
