@@ -1,4 +1,4 @@
-# Finance Dashboard Backend API
+# Finance Dashboard Backend
 
 A RESTful API for managing financial records with role-based access control, built using Flask and SQLite. Implements layered authorization (Admin / Analyst / Viewer), full CRUD with soft deletes, and aggregation-based analytics — structured around clean separation of concerns.
 
